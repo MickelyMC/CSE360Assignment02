@@ -1,7 +1,10 @@
 /** CSE360 Assignment 02
  * 	This project is to practice using git and javadoc. 
+ * <p>
+ * This material may not be used without written permission from
+ * the author, except by course instructors and/or graders. 
  * 
- * @author Ian Kelsey - 1210832919
+ * @author Ian Kelsey
  * @version 1.0
  * @since 2020-10-05
  * */
@@ -22,6 +25,7 @@ public class AddingMachine {
   
   /**
    * Constructor
+   * --Test comment change--
   */
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
