@@ -5,7 +5,7 @@
  * the author, except by course instructors and/or graders. 
  * 
  * @author Ian Kelsey
- * @version 1.0
+ * @version 1.1
  * @since 2020-10-05
  * */
 package cse360assignment02;
@@ -110,7 +110,7 @@ public class AddingMachine {
   }
   
   
-  // Simple test program
+  /*// Simple test program
   public static void main(String[] args) {
 	  AddingMachine calc = new AddingMachine();
 	  
@@ -128,7 +128,7 @@ public class AddingMachine {
 	  System.out.println(calc.toString());
 	  
   }
-  
+  */
   
   
 }
