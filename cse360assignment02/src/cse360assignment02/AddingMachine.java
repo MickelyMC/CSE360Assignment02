@@ -32,14 +32,12 @@ public class AddingMachine {
 	  //add '0' to memory
   }
   
-  
   /**
   * Returns total value
  */
   public int getTotal () {
     return total;
   }
-  
   
   /**
   * Add method adds parameter to the total
@@ -51,7 +49,6 @@ public class AddingMachine {
 	  memory.add("myCalculator.add (" + value + ");");
   }
   
-  
   /**
   * Subtract method subtracts parameter from the total
   * @param value Integer value to subtract from the total
@@ -61,7 +58,6 @@ public class AddingMachine {
 	  //add 'value' and operation to memory
 	  memory.add("myCalculator.subtract (" + value + ");");
   }
-
   
   /**
   * toString method, returns a string representation of the operations used
@@ -69,15 +65,9 @@ public class AddingMachine {
   public String toString () {
 	  String toReturn = "";
 	  
-	  //print out memory
-	  //for(String j : memory) {
-	  //System.out.println(j);
-	  //}
-	  
 	  if (memory.size() == 0) {
 		  return "No Operations";
 	  }
-	  
 	  
 	  //Read and format memory for return String
 	  for(String i : memory) {
@@ -95,12 +85,10 @@ public class AddingMachine {
 			  toReturn = toReturn + "0 ";
 		  }
 	  }
-
 	
 	  return toReturn;
 	  //return operations memory
   }
-
   
   /**
   * clear method
@@ -126,32 +114,6 @@ public class AddingMachine {
 	  
 	  calc.clear();
 	  System.out.println(calc.toString());
-	  
   }
   */
-  
-  
 }
-/*
- 
-A history of the transactions must be kept to be returned by the toString method. The history should start from the initial 0 value to the last input.
-
- The clear method should clear your "memory".
- 
-Use the normal operators for the operations (+, -).
-
-There is no limit on the size of the String returned.
-
-
-
-The format of the String should separate all operations and values with a space. For example:
-myCalculator.add (4); 
-myCalculator.subtract (2); 
-myCalculator.add(5);
-
-then the toString method should return
-0 + 4 – 2 + 5
-
-Add other variables as needed to the class. Any additional variables must be private. Make changes to the other methods if needed.
-Update all documentations as needed
-*/
