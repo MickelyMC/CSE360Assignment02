@@ -1,19 +1,12 @@
-/*
+/** CSE360 Assignment 02
+ * 	This project is to practice using git and javadoc. 
  * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- *
- * 
+ * @author Ian Kelsey - 1210832919
+ * @version 1.0
+ * @since 2020-10-05
  * */
 
 package cse360assignment02;
-
 
 /**
  * <h1>AddingMachine</h1>
